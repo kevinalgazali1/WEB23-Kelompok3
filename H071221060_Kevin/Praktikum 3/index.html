@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 3</title>
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!-- Header Start -->
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="/" class="text-decoration-none text-white fs-5 fw-bold">ZliFood</a>
+            <div>
+                <button class="navbar-toggler text-white" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+                aria-label="Toggle Navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" 
+                    fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+        <!-- Header End -->
+
+
+    <!-- flyout Navigation Start -->
+    <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+
+        <div class="dropdown-nav__container container-xxl d-flex align-items-start align-items-md-center">
+
+            <div class="row align-items-start">
+
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-sm-12 mb-4">
+                            <img src="/assets/pancake.jpg" alt="pancake"
+                            class="img-fluid" width="553" height="746" loading="lazy">
+                        </div>
+                        <div class="col-10">
+                            <h3>Pancake</h3>
+                            <p>Find out more about pancake</p>
+                            <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-sm-12 mb-4">
+                            <img src="/assets/pancake.jpg" alt="pancake"
+                            class="img-fluid" width="553" height="746" loading="lazy">
+                        </div>
+                        <div class="col-10">
+                            <h3>Pancake</h3>
+                            <p>Find out more about pancake</p>
+                            <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-sm-12 mb-4">
+                            <img src="/assets/pancake.jpg" alt="pancake"
+                            class="img-fluid" width="553" height="746" loading="lazy">
+                        </div>
+                        <div class="col-10">
+                            <h3>Pancake</h3>
+                            <p>Find out more about pancake</p>
+                            <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        
+            <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+            aria-label="Toggle Navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+            </button>
+
+        </div>
+
+    </nav>
+    <!-- flyout Navigation End -->
+
+    <!-- Hero Start -->
+
+    <section class="hero">
+
+        <div class="hero__overlay"></div>
+
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted"
+        loop="loop" loading="lazy" class="hero__video">
+        <source src="/assets/1.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero__content h-100 container-custom position-relative">
+            <div class="d-flex h-100 align-items-center hero__content-width">
+                <div class="text-white">
+                    <h1 class="hero__heading fw-bold mb-4">Discover the taste of west food.</h1>
+                    <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquid minima repudiandae voluptate tenetur, ex saepe, cumque ratione maxime praesentium quia voluptatum exercitationem voluptates ducimus necessitatibus commodi dolore eligendi illo?</p>
+                    <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#scroll-down" class="hero__scroll-btn">
+            Explore <i class="bi bi-arrow-down-short"></i>
+        </a>
+        
+    </section>
+    <!-- Hero End -->
+    
+
+    <a id="scroll-down"></a>
+    <!-- Section one Start -->
+    <section class="steps container-custom">
+
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+                <img src="assets/pastel.jpg" alt="pastel" class="ing-fluid pb-4 steps__section-thumbnail" width="400" height="400" loading="lazy">  
+            </div>
+
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="steps__content-width">
+                    <span>01</span>
+                    <h1 class="h2 mb-4">Pastel</h1>
+                    <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque fugiat nihil delectus magni, incidunt temporibus impedit qui facere voluptatem inventore omnis pariatur dignissimos possimus vel maxime, quia quo. Similique, minima.</p>
+                    <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Section one End -->
+
+   <!-- Section two Start -->
+    <section class="steps steps--background">
+
+        <div class="container-custom">
+
+            <div class="row">
+                <div class="col-12 col-sm-6 d-md-flex justify-content-md-center order-sm-1">
+                    <img src="assets/curry.jpg" alt="curry" class="ing-fluid pb-4 steps__section-thumbnail" width="400" height="400" loading="lazy">  
+                </div>
+        
+                <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                    <div class="steps__content-width">
+                        <span>02</span>
+                        <h1 class="h2 mb-4">Curry</h1>
+                        <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque fugiat nihil delectus magni, incidunt temporibus impedit qui facere voluptatem inventore omnis pariatur dignissimos possimus vel maxime, quia quo. Similique, minima.</p>
+                        <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <!-- Section two End -->
+
+    <!-- Section one Start -->
+    <section class="steps container-custom">
+
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+                <img src="assets/tongseng.jpg" alt="tongseng" class="ing-fluid pb-4 steps__section-thumbnail" width="400" height="400" loading="lazy">  
+            </div>
+
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="steps__content-width">
+                    <span>03</span>
+                    <h1 class="h2 mb-4">Tongseng</h1>
+                    <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque fugiat nihil delectus magni, incidunt temporibus impedit qui facere voluptatem inventore omnis pariatur dignissimos possimus vel maxime, quia quo. Similique, minima.</p>
+                    <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Section one End -->
+
+    <!-- Section with 3 col's Start -->
+    <section class="bg-dark text-white py-4">
+        <div class="container-custom my-4">
+            <div class="row">
+
+                <div class="col-12 col-sm-4 mb-4">
+                    <img src="assets/ayam bakar.jpg" class="mb-4 img-fluid" alt="ayam bakar" width="250" height="200" loading="lazy">
+                    <h3>Ayam Bakar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis voluptatem distinctio porro enim, magni ducimus molestias perspiciatis blanditiis, nostrum consectetur suscipit, odio asperiores molestiae cumque sed! Qui laboriosam voluptate tenetur.</p>
+                </div>
+                <div class="col-12 col-sm-4 mb-4">
+                    <img src="assets/sate.jpg" class="mb-4 img-fluid" alt="sate" width="250" height="200" loading="lazy">
+                    <h3>Sate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis voluptatem distinctio porro enim, magni ducimus molestias perspiciatis blanditiis, nostrum consectetur suscipit, odio asperiores molestiae cumque sed! Qui laboriosam voluptate tenetur.</p>
+                </div>
+                <div class="col-12 col-sm-4 mb-4">
+                    <img src="assets/pertama.jpg" class="mb-4 img-fluid" alt="pertama" width="250" height="200" loading="lazy">
+                    <h3>Ala Carte</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis voluptatem distinctio porro enim, magni ducimus molestias perspiciatis blanditiis, nostrum consectetur suscipit, odio asperiores molestiae cumque sed! Qui laboriosam voluptate tenetur.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Section with 3 col's End -->
+
+
+    <!-- Footer Start -->
+    <footer class="footer bg-dark">
+        <div class="container-custom d-flex justify-content-between align-items-center py-3 border-highlight">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="#" class="me-2 text-muted text-decoration-none">
+                    <i class="bi bi-cup"></i>
+                    <span style="color: antiquewhite;">&copy; 2023 ZliFood</span>
+                </a>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter" style="color: antiquewhite;"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram" style="color: antiquewhite;"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook" style="color: antiquewhite;"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
