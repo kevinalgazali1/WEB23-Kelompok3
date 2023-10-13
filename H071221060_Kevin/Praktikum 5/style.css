@@ -1,0 +1,65 @@
+body {
+  background-image: url(images/cards/Background.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: 100%;
+}
+
+h1,
+h3,
+p {
+  font-size: 20px;
+}
+
+container{
+  align-items: justify;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 200px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.bot-cards img,
+.my-cards img {
+  width: 150px;
+  margin: 1px;
+}
+
+input {
+  width: auto;
+  height: 25px;
+  border-radius: 10px;
+}
+
+input.placeholder {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 150px;
+  font-size: 16px;
+  margin: 2px;
+  padding: 10px;
+  background-color: #545454;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333; /* Warna latar belakang akan berubah saat tombol digerakkan */
+}
